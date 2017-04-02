@@ -39,3 +39,7 @@ p {
 	border: solid;
 	border-color: #9575cd;
 }
+
+#instructions {
+	color: #9575cd;
+}
