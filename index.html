@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIF GENERATOR</title>
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <!-- ADDED STYLES -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<!-- NAV BAR -->
+<nav>
+    <div class="nav-wrapper deep-purple lighten-2">
+      <a href="index.html" class="brand-logo">GIF Generator</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="https://github.com/Giphy">Giphy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col s9 m9 l9">
+      <!-- USER WILL ENTER A NEW TOPIC HERE TO GENERATE A BUTTON -->
+        <form>
+          <div class="input-field">
+              <input id="user-input" placeholder="Add a new topic to the page!" id="search" type="text" class="validate" value="">
+              <label for="search"></label>
+          </div>
+        </form>
+      </div>
+
+    <div class="col s3 m3 l3 right-align">
+      <!-- BUTTON TO SUBMIT THE NEW TOPIC -->
+      <button class="btn-large waves-effect waves-light" type="submit" name="action" alt="submit" id="add-button">Submit<i class="material-icons right">send</i>
+      </button>
+    </div>
+  </div>
+
+	<div class="row">
+		<!-- left panel to hold the buttons -->
+     	<div class="col s12 m4 l3 center-align" id="button-display">
+			<a class="waves-effect waves-light btn" data-topic="cat">cat</a>
+      <a class="waves-effect waves-light btn" data-topic="coffee">coffee</a>
+      <a class="waves-effect waves-light btn" data-topic="donut">donut</a>
+      <a class="waves-effect waves-light btn" data-topic="reggae">reggae</a>
+      <a class="waves-effect waves-light btn" data-topic="comedy">comedy</a>
+
+     	</div>
+		<!-- right panel to hold the gifs -->
+     	<div class="col s12 m7 l8 offset-m1 offset-l1 center-align" id="gif-display">
+
+     	</div>
+
+	</div>
+<!-- close the container -->
+</div>
+  	<!--  Scripts-->
+  	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script src="assets/js/materialize.js"></script>
+  	<script src="assets/js/app.js"></script>
+</body>
+</html>

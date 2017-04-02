@@ -1,0 +1,41 @@
+#button-display {
+	background-color: teal;
+}
+
+#gif-display {
+	background-color: #ede7f6;
+	min-height: 280px;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+.brand-logo {
+	font-family: 'Audiowide', cursive;
+}
+
+.nav-wrapper {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+p {
+	font-style: italic;
+	font-size: 10px;
+}
+
+.gifdiv {
+	overflow: hidden;
+}
+
+.gif:hover{
+	border: solid;
+	border-color: #9575cd;
+}
