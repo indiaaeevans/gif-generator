@@ -25,7 +25,7 @@
 
     function ajaxRequest(topic) {
       // Constructing a URL to search Giphy for the topic selected
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         topic + "&api_key=dc6zaTOxFJmzC&limit=10";
 
       // Performing our AJAX GET request
